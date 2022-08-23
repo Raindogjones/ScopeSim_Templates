@@ -16,3 +16,4 @@ from .extragalactic.galaxies import galaxy, galaxy3d, elliptical
 from .calibration.calibration import empty_sky
 from .calibration.micado import darkness, flatlamp
 from .calibration import micado
+from .pyxel import pyxel_wrapper
