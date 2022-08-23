@@ -3,8 +3,6 @@ import importlib
 import pyxel
 from pyxel.detectors import Detector
 
-import scopesim_templates as st
-
 
 def pyxel_wrapper(detector, function_name, **kwargs):
     """
