@@ -366,7 +366,7 @@ def source_from_file(filename, pixel_scale, sed, amplitude, filter_curve, cut=0,
 #        ra, dec = wcs.wcs.crval
 
     data[data < cut] = 0
-    src = source_from_array(image=data, sed=sed, pixel_scale=pixel_scale,
+    src = source_from_array(arr=data, sed=sed, pixel_scale=pixel_scale,
                             amplitude=amplitude, filter_curve=filter_curve)
 
     return src
